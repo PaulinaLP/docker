@@ -7,3 +7,7 @@ pwd : prnt working directory
 ls : list diectory content
 mkdir : make directory
 
+docker run -it -e POSTGRES_USER="root" -e POSTGRES_PASSWORD="root" -e POSTGRES_DB="ny_taxi" -v "C:\Users\pzlpa_000\docker\data:/var/lib/postgresql/data" -p 5432:5432 postgres:13
+
+
+
