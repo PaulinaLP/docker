@@ -1,0 +1,9 @@
+exit : exits the container
+-it : to run in an interactive way (docker run -it ubuntu bash)
+-entrypoint : overwrite entrypont (docker run -it --entrypoint=bash python:3.9 overwrite entrypont)
+build -t name:tag . : building image from Dockerfile in current directory (docker build -t test:pandas .)
+run : run the container (docker run -it test:pandas)
+pwd : prnt working directory
+ls : list diectory content
+mkdir : make directory
+
